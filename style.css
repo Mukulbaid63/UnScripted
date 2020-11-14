@@ -1,0 +1,74 @@
+/* .footer{
+    background-color: black;
+    height: 200px;
+    width: 1900px;
+    margin: none;
+} */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+  }
+.background-image{
+    /* background-image: url(images/backgound.jpg); */
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%; 
+    filter: brightness(70%);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+/* .background-image::after{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+} */
+.navbar-brand{
+    /* position: sticky; */
+   /* text-align: center;
+    position: relative;
+    overflow: hidden; */
+    /* left: 50%;
+    right: 50%; */
+}
+.navbar-about{
+    /* position: sticky; */
+   /* text-align: center;
+    position: relative;
+    overflow: hidden; */
+    /* left: 50%; */
+    /* right: 50%; */
+}
+.navbar{
+    
+    /* z-index: 2; */
+    float: left;
+    width: 100%;
+    text-align: center;
+    /* display: inline-block; */
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+  
+}
+
+.navbar>ul{
+
+    width: auto;
+    float: none;
+    display: inline-block;
+    margin: 0 auto;
+    color:#FFF;
+}
