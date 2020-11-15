@@ -1,74 +1,106 @@
-/* .footer{
-    background-color: black;
-    height: 200px;
-    width: 1900px;
-    margin: none;
-} */
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
+body {
+    font-family: "Nunito";
+    padding-top: 72px;
+    font-size: 10pt;
   }
-.background-image{
-    /* background-image: url(images/backgound.jpg); */
+.navbar-brand{
+    font-family: Nunito;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    
+}
+.navbar{
+    
+    top:0;
+    right: 0;
+    left: 0;
+    
+
+}
+.home-image{
+   height: 740px;
+   width: 1350px;
+   min-width: 100%;
+   min-height: 100%;
+   position: absolute;
+   left:0;
+   top:0;
+   z-index: -1;
+}
+section#home{
+    position: relative;
+    height: 100vh;
+    margin-top: -72px;
+    overflow: hidden;
+}
+section#home::after{
+    content:"";
+    display:block;
+    position: absolute;
+    z-index: 0;
+    background-color:rgba(0,0,0,0.75);
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+}
+.home-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    z-index:1;
+    text-shadow: 0 0 6px #000;
+}
+.home-content h5{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.home-content h1{text-transform: uppercase;
+font-weight: 300;
+font-size: 5.25em;
+margin-bottom: 16px;
+white-space: nowrap;}
+.home-content h2{
+    font-size: 2em;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    
+}
+.home-content h2 span{
+    
+    font-weight: bold;
+    
+}
+
+.navbar{
+    background:none;
+     }
+ .home-image {
     position: absolute;
     left: 0;
     top: 0;
     min-width: 100%;
-    min-height: 100%; 
-    filter: brightness(70%);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-}
-/* .background-image::after{
-    content: "";
-    display: block;
-    position: absolute;
-    z-index: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.75);
-} */
-.navbar-brand{
-    /* position: sticky; */
-   /* text-align: center;
-    position: relative;
-    overflow: hidden; */
-    /* left: 50%;
-    right: 50%; */
-}
-.navbar-about{
-    /* position: sticky; */
-   /* text-align: center;
-    position: relative;
-    overflow: hidden; */
-    /* left: 50%; */
-    /* right: 50%; */
-}
-.navbar{
-    
-    /* z-index: 2; */
-    float: left;
-    width: 100%;
-    text-align: center;
-    /* display: inline-block; */
-    text-align: center;
-    padding-left: 400px;
-    padding-right: 400px;
-  
-}
+    min-height: 100%;
+    z-index: -1;
+    left:35%;
+    transform: translate(-35%);
+  }
+  nav>ul>a{
+      color: #fff;
+      padding: 10px;
+      text-decoration: none;
+  }
+  .navbar{
+     padding-left: 300px;
+     padding-right: 300px;
+  }
 
-.navbar>ul{
-
-    width: auto;
-    float: none;
-    display: inline-block;
-    margin: 0 auto;
-    color:#FFF;
-}
+  nav>ul>a:hover{
+      background-color: #696969;
+      text-decoration: none;
+      color: black;
+  }
