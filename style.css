@@ -168,20 +168,26 @@ color:#f25f4c}
   }
   .explore{
       z-index: 1;
-      padding: 4px 20px 4px 20px;
-      margin-top: 19px;
-      background-color: transparent;
-      font-size: 22px;
-      color: white;
-      border-radius: 7px 7px 7px 7px;
-      display: flex;
-      border-color: grey;
-      overflow: hidden; 
+      padding: 10px 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    border-radius: 6px 6px 6px 6px;
+    background-color: transparent;
+    border:1px solid transparent;
+    border-color: white;
+    transition: all 0.3s;
+    cursor: pointer; 
+    display: flex;
+    font-size: 1.4em;
   }
   .explore:hover{
       background-color: white;
-      color:black
+      
+      color:#000;
     
+      border:transparent
   }
   section{
       width:100%;
@@ -262,22 +268,59 @@ i{
     margin: 15px 0 25px;
     line-height: 1.6;
 }
-.service-card button{
-    padding: 10px 30px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    background-color: rgba(0,0,0,0.9);
-    border:1px solid transparent;
-    transition: all 0.3s;
-    cursor: pointer; 
-}
-.service-card button:hover{
-    color:#000;
-    background-color: transparent;
-    border: 1px solid #000;
-}
+
 .mission{
     margin-top: 40px;
+}
+.explore-2{
+    display: flex;
+    
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+}
+.stick1{
+    width: 25%;
+    height: 25%;
+    padding-left: 80px;
+    
+}
+.explore-util{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.explore-tag{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.explore-text{
+    font-size: 30px;
+    padding: 0px;
+}
+.explore-register{
+    z-index: 1;
+    padding: 10px 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #FFF;
+  border-radius: 6px 6px 6px 6px;
+  background-color: transparent;
+  border:1px solid transparent;
+  border-color: white;
+  transition: all 0.3s;
+  cursor: pointer; 
+  display: flex;
+  font-size: 1.4em;
+  width: 32%;
+  
+}
+.explore-register:hover{
+    background-color: white;
+    
+    color:#000;
+  
+    border:transparent
 }
