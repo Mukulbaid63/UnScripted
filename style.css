@@ -18,8 +18,8 @@ body {
     top:0;
     right: 0;
     left: 0;
-    background-color: rgba(255, 255,255,0.27);
-    
+    background-color:#f25f4c;
+    padding-bottom:0px ;
 }
 .home-image{
    height: 740px;
@@ -95,7 +95,7 @@ color:#f25f4c}
   nav>li>a{
       color:#fffffe;
       padding: 10px;
-      margin: none;
+      margin: 0px;
       font-weight: 900;
       text-decoration: none;
       border-radius: 7px 7px 7px 7px;
@@ -141,7 +141,7 @@ color:#f25f4c}
       color:#fffffe ;
       /* width: 60%; */
       max-width: 540px;
-      margin: none;
+      margin: 0px;
       padding: 20px;
       margin-top: 20px;
       border-radius: 6px 6px 6px 6px;
@@ -196,6 +196,7 @@ color:#f25f4c}
     width: 90%;
     margin:0 auto;
     max-width: 1440px;
+    
 }
 
 .mission h1{
@@ -260,6 +261,9 @@ i{
 .service-card .icon-container i{
     transform: rotate(-45deg);
 }
+.service-card .icon-container:hover{
+    border: 1px #f25f4c solid;
+}
 .service-card h2{
     font-size:20px;
 }
@@ -323,4 +327,16 @@ i{
     color:#000;
   
     border:transparent
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq-head{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.faq-tag{
+    font-size:1.2em;
 }
