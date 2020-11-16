@@ -1,22 +1,19 @@
 body {
-    font-family: "Nunito";
     padding-top: 72px;
     font-size: 10pt;
+    font-family: sans-serif;
   }
 .navbar-brand{
     font-family: Nunito;
     color: black;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 900;
     
 }
 .navbar{
-    
     top:0;
     right: 0;
     left: 0;
-    
-
 }
 .home-image{
    height: 740px;
@@ -48,37 +45,37 @@ section#home::after{
 .home-content{
     position: absolute;
     top:50%;
-    left:50%;
+    right:20%;
     transform: translate(-50%,-50%);
     color:#fff;
     z-index:1;
     text-shadow: 0 0 6px #000;
 }
-.home-content h5{
-    font-size: 1.5em;
-    font-weight: 500;
-    margin-bottom: 16px;
-}
-.home-content h1{text-transform: uppercase;
-font-weight: 300;
-font-size: 5.25em;
-margin-bottom: 16px;
-white-space: nowrap;}
-.home-content h2{
-    font-size: 2em;
-    font-weight: lighter;
-    margin-bottom: 0px;
+.home-content h1{
+font-weight: 700;
+font-size: 3.5em;
+margin-bottom: 10px;
+white-space: nowrap;
+color:#f25f4c}
+.home-content .tag-2{
+    font-size: 1.55em;
+    margin-bottom: 14px;
+    display: flex; 
     
 }
-.home-content h2 span{
-    
-    font-weight: bold;
-    
+.home-content .tag-3 {
+    font-size: 1.7em;
+    font-weight: 400; 
+    display: flex;
 }
-
-.navbar{
-    background:none;
-     }
+.home-content .tag-4 {
+    font-size: 1.7em;
+    font-weight: 400; 
+    display: flex;
+}
+.high-intro{
+    font-weight: bolder;
+}
  .home-image {
     position: absolute;
     left: 0;
@@ -89,18 +86,25 @@ white-space: nowrap;}
     left:35%;
     transform: translate(-35%);
   }
-  nav>ul>a{
-      color: #fff;
+  nav>li>a{
+      color:#fffffe;
       padding: 10px;
+      margin: none;
+      font-weight: 900;
       text-decoration: none;
   }
   .navbar{
-     padding-left: 300px;
-     padding-right: 300px;
+     /* padding-left: 450px;
+     padding-right: 00px; */
+     display: flex;
+     
+     justify-content: flex-end;
+     /* align-items: flex-start; */
   }
 
-  nav>ul>a:hover{
-      background-color: #696969;
+  nav>li>a:hover{
+      background-color:#ff8906;
       text-decoration: none;
-      color: black;
+      color:#fffffe;
   }
+  
