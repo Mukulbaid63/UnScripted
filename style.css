@@ -14,7 +14,7 @@ body {
     font-weight: 900;
     
 }
-.navbar{
+.navbar-dark{
     top:0;
     right: 0;
     left: 0;
@@ -339,4 +339,55 @@ i{
 }
 .faq-tag{
     font-size:1.2em;
+}
+.footer {
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#151414;
+    color: white;
+    text-align: center;
+  }
+.copyright{
+    background-color: #202020;
+    color:#878787;
+    display: flex;
+    font-family: 'Montserrat';
+    font-size: 1.05em;
+}
+.copyright-buttons{
+    padding: 0px;
+    left:53%;
+    
+}
+.copy-text{
+    padding: 7px;
+
+}
+.copy-home {
+padding: 5px;
+padding-right: 5px;
+margin-right: 5px;
+cursor: pointer;
+}
+.copy-about {
+padding: 5px;
+padding-right: 5px;
+margin-right: 5px;
+cursor: pointer;
+
+}
+.copy-mission{
+padding: 5px;
+margin-right: 5px;
+padding-right: 5px;
+cursor: pointer;
+
+}
+.copy-pp{
+padding: 5px;
+padding-right: 0px;
+cursor: pointer;
+
 }
