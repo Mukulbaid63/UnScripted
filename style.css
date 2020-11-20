@@ -7,6 +7,8 @@ body {
     justify-content: center;
     box-sizing: border-box;
   }
+
+
 .navbar-brand{
     font-family: Nunito;
     color: black;
@@ -15,10 +17,17 @@ body {
     
 }
 .navbar-dark{
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+ }
+ nav.navbar-dark.transparent {
+    background-color:rgba(242,85,76,0.9);
+  }
+.navbar-dark{
     top:0;
     right: 0;
     left: 0;
-    background-color:#f25f4c;
+    
     padding-bottom:0px ;
 }
 .home-image{
@@ -336,6 +345,7 @@ i{
 .faq-head{
     margin-top: 50px;
     margin-bottom: 30px;
+    
 }
 .faq-tag{
     font-size:1.2em;
@@ -346,8 +356,9 @@ i{
     bottom: 0;
     width: 100%;
     background-color:#151414;
-    color: white;
+    color: #a7a9be;
     text-align: center;
+    
   }
 .copyright{
     background-color: #202020;
@@ -390,4 +401,107 @@ padding: 5px;
 padding-right: 0px;
 cursor: pointer;
 
+}
+.footer-company{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 2px 50px 2px 0px;
+}
+.footer-links
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 25%;
+    
+}
+.footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.footer-head{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    /* padding-left: 20px; */
+}
+.footer-iconbar{
+    display: flex;
+    background-color: #151414;
+    justify-content: center;
+}
+.footer-iconbar i{
+    color: #a7a9be;
+    padding: 20px;
+}
+li{
+    list-style-type: none;
+}
+.footer-links-1{
+margin-bottom: 5px;
+text-align: left;
+
+}
+.footer-links-2{
+
+
+font-size: 1.02em;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-bottom: 10px;
+
+}
+.footer-links-2-1{
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.footer-links-2-2{
+    padding-bottom: 8px;
+}
+.footer-links-2-3{
+    padding-bottom: 8px;
+}
+.footer-links-2-1 a{
+    padding: 4px;
+    text-decoration: none;
+    color: #a7a9be;
+}
+.footer-links-2-2 a{
+    padding: 4px;
+    text-decoration: none;
+    color: #a7a9be;
+}
+.footer-links-2-3 a{
+    padding: 4px;
+    text-decoration: none;
+    color: #a7a9be;
+}
+
+
+.subscribe-email{
+    border:none;
+    padding:12px 25px 12px 25px ;
+    background-color:#2e2e2e;
+    border-top-left-radius: 25px;
+    outline: none;
+    color: #a7a9be;
+    border-bottom-left-radius: 25px;
+}
+.sub-email{
+    position: absolute;
+    padding: 11px 23px 11px 16px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #007bff;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+.footer-head-sub{
+    font-size: 1.05em;
+    padding: 10px 0px 0px 0px ;
 }
