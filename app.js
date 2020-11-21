@@ -23,6 +23,6 @@ for (i = 0; i < acc.length; i++) {
 
 new TypeIt("#typeit", {
   strings: "Revolutionizing Open Source.",
-  speed: 100,
+  speed: 150,
   waitUntilVisible: true
 }).go();
