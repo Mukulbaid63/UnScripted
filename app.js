@@ -26,3 +26,17 @@ new TypeIt("#typeit", {
   speed: 150,
   waitUntilVisible: true
 }).go();
+
+
+
+    window.__be = window.__be || {};
+    window.__be.id = "5fbaa769137e3a000783ca33";
+    (function() {
+        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
+
+var quoteText=document.querySelector(".quote");
+var quoteAuthor=document.querySelector(".writer");
+
