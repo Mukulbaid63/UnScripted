@@ -591,7 +591,7 @@ color: #ff8906;
     justify-content: center; */
     width: 22vw;
     /* border:1px solid; */
-    margin:30px 5px 30px 5px ;
+    margin:0px 5px 30px 5px ;
     transform: translate(0%,0%);
 }
 
@@ -633,8 +633,98 @@ color: #ff8906;
 }
 .event-head{
     text-align: left;
-    font-size: 60px;
+    font-size: 38px;
     font-family: Montserrat;
     font-weight: 500;
-    margin:40px 0px 10px 70px;
+    margin:60px 0px 0px 70px;
+}
+.event-head-1{
+    font-size: 40px;
+    color:#f25f4c
+}
+.ec-1{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+.explore-register-1{
+    z-index: 1;
+    padding: 10px 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #FFF;
+  border-radius: 6px 6px 6px 6px;
+  background-color: transparent;
+  border:1px solid transparent;
+  border-color: white;
+  transition: all 0.3s;
+  cursor: pointer; 
+  display: flex;
+  font-size: 1.4em;
+  
+  margin-left: 20px;
+  
+}
+.explore-register-1:hover{
+    background-color: white;
+    
+    color:#000;
+  
+    border:transparent
+}
+.explore-3{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+}
+
+.stick4{
+    width: 21%;
+    height: 21%;
+    margin-top: 9px;
+    
+}
+.explore-util-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.explore-text-3{
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 400;
+    padding-top: 30px;
+}
+.explore-author-3{
+    font-size: 25px;
+    font-family: Montserrat;
+    padding-top: 30px;
+    text-align: right;
+}
+.explore-register-3{
+    z-index: 1;
+    padding: 10px 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #FFF;
+  border-radius: 6px 6px 6px 6px;
+  background-color: transparent;
+  border:1px solid transparent;
+  border-color: white;
+  transition: all 0.3s;
+  cursor: pointer; 
+  display: flex;
+  font-size: 1.4em;
+}
+.explore-register-3:hover{
+    background-color: white;
+    
+    color:#000;
+  
+    border:transparent
 }
