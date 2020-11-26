@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-    if ($(document).scrollTop() >610) {
+    if ($(document).scrollTop() >110) {
       $('nav').addClass('transparent');
     } else {
       $('nav').removeClass('transparent');
