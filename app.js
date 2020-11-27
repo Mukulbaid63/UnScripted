@@ -1,3 +1,11 @@
+function hideLoader() {
+  $('.loading').hide();
+  $('div').removeClass('.after-load');
+}
+
+
+setTimeout(hideLoader, 5 * 1000);
+
 $(window).scroll(function() {
     if ($(document).scrollTop() >110) {
       $('nav').addClass('transparent');

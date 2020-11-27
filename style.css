@@ -1,3 +1,4 @@
+
 body {
     padding-top: 72px;
     font-size: 10pt;
@@ -401,7 +402,7 @@ i{
 }
 .copyright-buttons{
     padding: 0px;
-    left:53%;
+    left:51%;
     
 }
 .copy-text{
@@ -763,5 +764,23 @@ color: #ff8906;
     vertical-align: text-top;
     margin: 0px 0px 0px 20px;
     z-index:2;
-    border: 1px solid black;
+    
+}
+
+.loading {
+    
+    background: url('images/spinner.gif') no-repeat center center;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+    background-size: cover;
+    
+}
+.after-load{
+    visibility: hidden;
 }
