@@ -1,10 +1,15 @@
-function hideLoader() {
-  $('.loading').hide();
-  $('div').removeClass('.after-load');
-}
+// function hideLoader() {
+//   $('body').removeClass('loading');
+//   $('body').addClass('after-load');
+// }
+
+// $(window).ready(function(){
+//   $('body').addClass('loading');
+//   $('body').removeClass('after-load');
+// });
 
 
-setTimeout(hideLoader, 5 * 1000);
+// setTimeout(hideLoader, 5 * 1000);
 
 $(window).scroll(function() {
     if ($(document).scrollTop() >110) {
